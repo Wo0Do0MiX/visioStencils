@@ -6,14 +6,14 @@
 ![Vision templates](https://img.shields.io/badge/visio_templates-80-186ADE)
 ![Visio documents](https://img.shields.io/badge/visio_documents-906-186ADE)
 
-# About
-This repository consolidate more than 4,450 Microsoft Visio artefacts that I have collected and used over the years. Your stencils and templates library does not have to be unique, everyone strives for consistency. Fork this repository and improve *your* library. Even better, send me an update :wink:
+# За овој проект
+Овој проект содржи преку 4,450 Microsoft Visio модели кои се собирани низ годините, наназад. :wink:
 
-Drawing scale should be set to 1”=10” which is the de facto industry standard for network VISIO shapes.
+Ратиото е 1:10 во врска со моделите
 
-> I try to keep my artefacts as _fresh_ as possible by manually accessing the vendors website on a regular basis. Refer to my [notes](Documents/notes.md) for more information. 
+> Повеќе информации во [notes](Documents/notes.md) . 
 
-## Structure
+## Структура
 ```markdown
 .
 ├── LICENSE
@@ -40,21 +40,16 @@ Drawing scale should be set to 1”=10” which is the de facto industry standar
 
 ```
 
-I normalize filenames:
- * Replace all dashes and underscores with a space
- * Add the vendor name as prefix
- * Add the version as suffix usually in a v[year] format
+# Процедура за инсталација
 
-# Installation procedure
+1. Затворете го [Microsoft Visio](https://www.microsoft.com/en-ca/microsoft-365/visio)
+2. Клонирајте го или превземете го репото
+3. Копирајте ги сите модели (пр., .vsss и .vssx во C:\Users\%userprofile%\Documents\My Shapes) 
+4. Microsoft Visio ќе ги препознае сите модели во  _MY_SHAPES_ фолдерот.
 
-1. Close [Microsoft Visio](https://www.microsoft.com/en-ca/microsoft-365/visio)
-2. Clone or download the repository
-3. Copy all the stencils (e.g., .vss and .vssx) to C:\Users\<Username>\Documents\My Shapes
-4. Microsoft Visio will recognize all stencil files in the _My Shapes_ folder
+Истото можете да го направите и со темплјетите и другите документи со .vss и .vssx фаилови.
 
-You can do the same thing for templates (e.g., .vst, .vstm and .vstx) and the documents (e.g., .vsd, and .vsdx)
-
-In doubt refer to this [Microsoft instruction](https://support.microsoft.com/en-us/office/import-downloaded-stencils-74bbdce1-4872-4d5b-af4c-e93fa23f7008).
+За дополнителни информации слободно посетете го овој линк [Microsoft instruction](https://support.microsoft.com/en-us/office/import-downloaded-stencils-74bbdce1-4872-4d5b-af4c-e93fa23f7008).
 
 # _visioStencils_ by Benoît H. Dicaire is shared with an [unlicense](https://github.com/bhdicaire/visioStencils/raw/main/LICENSE).
 We got documents, stencils, and templates from the internet or pull requests. Check my [notes](Documents/notes.md) for details.
